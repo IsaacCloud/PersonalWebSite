@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Cloud</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+    <!-- Canvas for Starfield Animation -->
+    <canvas id="starfield"></canvas>
+
+    <header>
+        <h1>Isaac Cloud</h1>
+        <p>IT Professional | Aspiring Data Analyst</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Hello!" class="profile-image">
+        <p>Hello! I’m Isaac, a versatile IT professional and aspiring Data Analyst with expertise in network administration, hardware support, and application troubleshooting. Over my career, I’ve had the opportunity to support and manage diverse IT environments, from remote healthcare solutions to enterprise-grade infrastructure. In my current role as a Device Engineer, I serve as a critical link between technology and patient care, ensuring that hardware operates seamlessly and securely.</p>
+        <p>With strong foundations in Customer Service, O365, Google Workspace, and Salesforce, I bring a comprehensive approach to IT solutions and end-user support. I’m passionate about leveraging technology to create efficient, user-friendly systems, and I strive to share knowledge by developing thorough documentation and training resources.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="job" onclick="toggleDetails('job1-details')">
+            <h3>Device Engineer - Medically Home LLC</h3>
+            <p><i>9/2023 - Present</i> - Ensured seamless hardware operations in healthcare.</p>
+            <div class="details" id="job1-details">
+                <p>As the primary contact for patient hardware support, I managed configurations and performance for over 800 Cradlepoint routers in patient homes, ensuring security and firmware updates were current. I collaborated closely with development and product teams to troubleshoot hardware issues, support R&D initiatives, and create comprehensive training materials for both internal and customer use. Additionally, I oversaw Depot standards, trained users on new equipment, coordinated supply chain and asset management, and routinely audited licensing to optimize resources and prevent unnecessary renewals.</p>
+            </div>
+        </div>
+        <div class="job" onclick="toggleDetails('job2-details')">
+            <h3>IT Support Specialist - Medically Home LLC</h3>
+            <p><i>10/2022 - 9/2023</i> - Supported virtual work environments and network maintenance.</p>
+            <div class="details" id="job2-details">
+                <p>I managed and supported over 200 users, groups, mailboxes, and calendars within O365, resolving LAN/WAN connectivity issues at patient home locations and setting up Cradlepoint mobile routers for remote access. Additionally, I configured IP phones with Yealink software, supported a fleet of Android tablets, and administered proprietary EHR applications for partner hospitals. I also coordinated hardware resource distribution among Ambulatory partners and established Jira and Confluence spaces to enhance project tracking and documentation within the department.</p>
+            </div>
+        </div>
+        <div class="job" onclick="toggleDetails('job3-details')">
+            <h3>Desktop Administrator - Virbela LLC</h3>
+            <p><i>6/2021 - 9/2022</i> - Supported virtual work environments and network maintenance.</p>
+            <div class="details" id="job3-details">
+                   <p>I administered over 200 users, mailboxes, and shared drives in Google Workspace, managed 300+ Windows and Mac systems using Manage Engine Desktop Central and JAMF, and imaged and distributed laptops for new hires. Through hardware recovery efforts, I recouped over $75,000 in assets within one year. I also managed Jira and Confluence for project and support teams, authored 50+ documentation pieces for policies and procedures, sourced vendors for hardware lifecycle and software licensing, handled Salesforce access management and data tasks, and provided support for the company’s proprietary virtual campus application.</p>       
+            </div>
+        </div>
+        <div class="job" onclick="toggleDetails('job4-details')">
+            <h3>IT Engineer - Emerge Managed Services</h3>
+            <p><i>3/2020 - 6/2021</i> - Supported virtual work environments and network maintenance.</p>
+            <div class="details" id="job4-details">
+                <p>I managed LAN/WAN and server issues across 20+ customer network environments, administered identity and access management for various systems, and oversaw O365 licensing for over 1,000 users. Additionally, I configured Proofpoint and Barracuda email security to mitigate spam and threats, implemented changes on Meraki and Cisco network devices, and optimized virtual desktops in VMware and Citrix. Throughout, I provided white-glove customer service to users across multiple industries.</p>
+            </div>
+        </div>
+        <div class="job" onclick="toggleDetails('job5-details')">
+            <h3>IT Engineer - Wayfair</h3>
+            <p><i>12/2019 - 03/2020</i> - Supported virtual work environments and network maintenance.</p>
+            <div class="details" id="job5-details">
+                <p>I managed Active Directory accounts for over 10,000 users, activated network drops in warehouses, and handled IP reservations and DHCP scopes. I processed VLAN changes on Cisco switches, wrote SQL queries to address warehouse inventory database issues, arranged workstations for office and production use, deployed and maintained Zebra printers and barcode scanners, and regularly updated information display boards across multiple locations.</p>>     
+            </div>
+        </div>
+        <div class="job" onclick="toggleDetails('job6-details')">
+            <h3>Desktop Support Specialist - Cincinnati Children's Hospital</h3>
+            <p><i>9/2023 - Present</i> - Supported virtual work environments and network maintenance.</p>
+            <div class="details" id="job6-details">
+                <p>I resolved desktop hardware and software issues for over 15,000 users across multiple sites, provided white-glove support to VIPs in clinical and research settings, and led computer installations for a cutting-edge dental clinic. I supported the migration from Network Shares to OneDrive, conducted Microsoft Office training, and configured email and mobile apps on iOS and Android. Additionally, I developed IT and user documentation, coordinated user moves, and managed hardware purchase requests through vendors to improve the user experience.</p>         
+            </div>
+        </div>
+        <a href="IsaacCloudResume2024.pdf" target="_blank" class="resume-button" download>Download Resume</a>
+    </section>
+
+    <footer>
+        <div id="contact">
+            <h2>Contact Links</h2>
+            <ul>
+                <li><a href="mailto:isaac.cloud@icloud.com">Email</a></li>
+                <li><a href="https://linkedin.com/in/isaaccloud" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/isaaccloud" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Isaac Cloud. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
